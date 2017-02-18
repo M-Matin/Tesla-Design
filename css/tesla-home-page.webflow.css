@@ -92,6 +92,8 @@ h3 {
 }
 
 .order-btn {
+  margin-right: 10px;
+  margin-left: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #b10000;
