@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com -->
-<!--  Last Published: Thu Dec 29 2016 01:20:13 GMT+0000 (UTC)  -->
+<!--  Last Published: Thu Dec 29 2016 01:24:52 GMT+0000 (UTC)  -->
 <html data-wf-page="5863364c9df6e96b58124aa1" data-wf-site="5863364c9df6e96b58124aa0">
 <head>
   <meta charset="utf-8">
@@ -23,6 +23,23 @@
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
 </head>
 <body>
+  <div class="modul">
+    <div class="w-form">
+      <form data-name="Email Form" id="email-form" name="email-form">
+        <label for="name">Name:</label>
+        <input class="w-input" data-name="Name" id="name" maxlength="256" name="name" placeholder="Enter your name" type="text">
+        <label for="email">Email Address:</label>
+        <input class="w-input" data-name="Email" id="email" maxlength="256" name="email" placeholder="Enter your email address" required="required" type="email">
+        <input class="w-button" data-wait="Please wait..." type="submit" value="Submit">
+      </form>
+      <div class="w-form-done">
+        <div>Thank you! Your submission has been received!</div>
+      </div>
+      <div class="w-form-fail">
+        <div>Oops! Something went wrong while submitting the form</div>
+      </div>
+    </div>
+  </div>
   <div class="page-content">
     <div class="navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400">
       <div class="w-container">

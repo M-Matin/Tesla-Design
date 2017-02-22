@@ -160,6 +160,11 @@ h3 {
   border-left: 1px solid #fff;
 }
 
+.modul {
+  position: fixed;
+  width: 50%;
+}
+
 @media (max-width: 991px) {
   .small-nav-menu {
     float: right;
