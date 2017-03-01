@@ -4329,3 +4329,10 @@
 
 }());
 
+/**
+ * ----------------------------------------------------------------------
+ * Webflow: Interactions: Init
+ */
+Webflow.require('ix').init([
+  {"slug":"clicky","name":"Clicky","value":{"style":{},"triggers":[{"type":"click","selector":".page-content","preserve3d":true,"stepsA":[{"display":"block","opacity":0.2,"transition":"transform 500ms ease 0, opacity 200 ease 0","scaleX":0.75,"scaleY":0.75,"scaleZ":1}],"stepsB":[{"opacity":1,"transition":"transform 500ms ease 0, opacity 200 ease 0","scaleX":1,"scaleY":1,"scaleZ":1}]}]}}
+]);
